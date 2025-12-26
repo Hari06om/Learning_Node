@@ -19,7 +19,7 @@ function App() {
   return (
     <>
     <h1>
-      Chai and fullstack development!
+      Chai and fullstack development! ||  with hari om verma 
     </h1>
     <p>
       Jokes count: {jokes.length}
