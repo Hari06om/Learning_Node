@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     axios.get('/api/jokes')
-      .then(response => {
+      .then((response) => {
         setJokes(response.data)
       })
       .catch(error => {
