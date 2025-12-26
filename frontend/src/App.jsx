@@ -3,6 +3,13 @@ import './App.css'
 import axios from 'axios'
 
 
+/**
+ * Root React component that fetches jokes on mount and renders a header, the jokes count, and a list of jokes.
+ *
+ * On mount, performs a GET request to '/api/jokes' and stores the response data in component state.
+ *
+ * @returns {JSX.Element} A fragment containing a heading, a paragraph with the number of jokes, and a list of joke entries (each with a title and content).
+ */
 function App() {
   const [jokes, setJokes] = useState([])
 
