@@ -1,0 +1,27 @@
+{
+  "name": "chaibackend",
+  "version": "1.0.0",
+  "description": "a basic app to deploy",
+  "keywords": [
+    "node",
+    "chai"
+  ],
+  "homepage": "https://github.com/Hari06om/Learning_Node#readme",
+  "bugs": {
+    "url": "https://github.com/Hari06om/Learning_Node/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hari06om/Learning_Node.git"
+  },
+  "license": "ISC",
+  "author": "hari om verma",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
